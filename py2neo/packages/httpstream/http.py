@@ -59,7 +59,7 @@ __all__ = ["NetworkAddressError", "SocketError", "RedirectionError", "Request",
 
 json_content_types = ("application/json", "text/json")
 
-socket_timeout = 30
+socket_timeout = 9999
 
 if sys.version_info >= (3,):
     is_unicode = lambda x: isinstance(x, str)
